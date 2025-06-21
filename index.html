@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="Image/logo2.png" alt="Logo of Online Library">
+            </a>
+            <div class="nav-links" id="navlinks">
+                
+                <i class="fa fa-times" id= "close-icon"onclick="hideMenu()"></i>
+                <ul>
+                <li> <a href=""> Home</a> </li>
+                <li> <a href="browse.html"> Browse </a> </li>
+                <li> <a href="about.html">  About </a> </li>
+                <li> <a href="contact.html"> Contact </a> </li>
+                
+                
+                </ul>
+            </div>
+             <i class="fa fa-bars" id="menu-icon" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>Welcome to PaperNest!</h1>
+                <p id="para1">Your cozy corner for timeless read.</p>
+                <a href="" class="herobutton">Start Reading!</a>
+            </div>
+           
+            
+
+    </section>
+    <section class="categories">
+        <h1>Discover your next read</h1>
+        <p>HandPicked books for every kind of reader.</p>
+
+        <div class="row">
+            <div class="categories-col">
+                <h3>Fiction  📖 </h3>
+                <p>If you love getting lost in stories, this is the place for you. Fiction books take you into made-up worlds full of drama, fun, and unforgettable characters.</p>
+            </div>
+            <div class="categories-col">
+                <h3>Classic 💎</h3>
+                <p>These are the all-time greats! Classic books have been loved for years and still hold powerful stories, deep thoughts, and beautiful writing you don’t want to miss.</p>
+            </div>
+            <div class="categories-col">
+                <h3>Contemporary ✨</h3>
+                <p>These books are all about today’s world—real people, real problems, and real feelings. If you like stories that feel current and relatable, check out Contemporary reads.</p>
+            </div>
+            </div>
+            <div class="row2">
+            <div class="categories-col2">
+                <h3>Science Fiction 🚀</h3>
+                <p>Into time travel, aliens, or high-tech futures? Science Fiction books let your imagination run wild with awesome ideas about space, science, and what’s next.</p>
+            </div>
+            <div class="categories-col2">
+                <h3>Fantasy 🧙‍♂️</h3>
+                <p>Step into magical lands full of wizards, dragons, and epic adventures. Fantasy books are great if you like stories that take you far away from the real world.</p>
+            </div>
+            <div class="categories-col2">
+                <h3>Self-Help 🤵</h3>
+                <p>Looking to feel better, do more, or grow as a person? Our Self-Help books are full of simple tips and ideas to help you stay motivated, think positively, and live your best life.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Browse by the Mood-->
+
+    <section class="mood">
+        <h1>Mood Reads</h1>
+        <p>Pick a mood and discover books that match your vibe – whether you're feeling curious, dreamy, adventurous, or just need a laugh!</p>
+
+        <div class="row3">
+            <div class="mood-col">
+                <img src="Image/cozy.webp" alt="">
+                <div class="layer">
+                    <h3>Cozy and Warm</h3>
+                </div>
+            </div>
+            <div class="mood-col">
+                <img src="Image/quite.jpg" alt="">
+                <div class="layer">
+                    <h3>Quite and Thoughtful!</h3>
+                </div>
+            </div>
+            <div class="mood-col">
+                <img src="Image/brave.jpg" alt="" width="150px">
+                <div class="layer">
+                    <h3>Bold and Brave</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row3">
+            <div class="mood-col">
+                <img src="Image/sunset.jpg" alt="">
+                <div class="layer">
+                    <h3>Bittersweet</h3>
+                </div>
+            </div>
+            <div class="mood-col">
+                <img src="Image/wscape.jpg" alt="">
+                <div class="layer">
+                    <h3>Quick Escape</h3>
+                </div>
+            </div>
+            <div class="mood-col">
+                <img src="Image/heartbreak.avif" alt="" width="150px">
+                <div class="layer">
+                    <h3>Heartbreak</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Top Reads of the month!-->
+    <section class="top-reads">
+        <h1>Top Reads Of The Month</h1>
+        <p>Discover our favorite reads this month—stories that captivated us with unforgettable characters, gripping twists, and heartfelt moments.</p>
+
+        <div class="row">
+            <div class="top-reads-col">
+                <img src="Image/booka1.jpg" alt="">
+                <h3>Sunrise on the Reaping</h3> 
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>Set 24 years before Katniss’s Games, this prequel follows Haymitch Abernathy during the brutal 50th Hunger Games, exploring the dark roots of rebellion and survival.</p>
+            </div>
+            <div class="top-reads-col">
+                <img src="Image/book2.jpg" alt="">
+                <h3>The Tenant</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>A couple rents out a room to a seemingly perfect tenant—until strange events spiral into a chilling psychological thriller full of twists and secrets.</p>
+            </div>
+            <div class="top-reads-col">
+                <img src="Image/book3.jpg" alt="">
+                <h3>Great Big Beautiful Life</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>On a remote island, a journalist and a biographer uncover a reclusive heiress’s hidden past—and find unexpected romance along the way.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Call to Action-->
+
+    <section class="cta">
+        <h1>Join the Journey - One Page at a Time</h1>
+        <a href="" class="herobutton">Browse Now</a>
+    </section>
+   <!--Footer-->
+   <section class="footer">
+
+    <h4>About Us</h4>
+    <p>We’re a community of book lovers dedicated to helping you discover stories that inspire, entertain, and stay with you. <br>From page-turning thrillers to heartfelt reads, we bring you the best picks every month. </p>
+
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        
+    </div>
+    <p>Crafted by PaperNest with stories at <i class="fa-solid fa-heart"></i> </p>
+   </section>
+
+   <button onclick="scrollToTop()" id="topBtn" title="Go to Top">⬆</button>
+
+
+   <script>
+  const topBtn = document.getElementById("topBtn");
+
+  window.onscroll = function () {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      topBtn.style.display = "block";
+    } else {
+      topBtn.style.display = "none";
+    }
+  };
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+</script>
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navlinks");
+        var closeIcon = document.getElementById("close-icon");
+        var menuIcon = document.getElementById("menu-icon");
+        function showMenu(){
+            navLinks.style.right = "0";
+            menuIcon.style.display = "none"
+            closeIcon.style.display = "block"
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+            menuIcon.style.display = "block"
+            closeIcon.style.display = "none";
+
+        }
+
+        
+
+    </script>
+
+</body>
+</html>
